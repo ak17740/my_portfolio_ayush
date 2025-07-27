@@ -99,68 +99,68 @@ const portfolioData = {
     },
 
     // Work Experience Section
-    experience: {
-        subtitle: "Professional Journey",
-        description: "My progressive career in software development and engineering leadership",
-        experiences: [
-            {
-                title: "Senior Full Stack Software Engineer",
-                company: "TechCorp Solutions Pvt. Ltd.",
-                period: "March 2023 - Present",
-                description: "Leading full-stack development initiatives for enterprise applications serving 100K+ users. Architected and implemented microservices using Node.js, React, and TypeScript, resulting in 45% improved performance and 60% reduced deployment time. Mentored 4 junior developers and established coding standards and best practices. Collaborated with product managers and designers to deliver user-centric solutions.",
-                technologies: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "AWS", "Docker", "Redis"],
-                icon: "bx bx-code-alt",
-                achievements: [
-                    "Reduced application load time by 45% through optimization",
-                    "Implemented CI/CD pipeline reducing deployment time by 60%",
-                    "Led team of 4 developers to deliver 3 major features ahead of schedule",
-                    "Mentored 2 junior developers who successfully transitioned to mid-level roles"
-                ]
-            },
-            {
-                title: "Full Stack Developer",
-                company: "InnovateTech Solutions",
-                period: "August 2022 - February 2023",
-                description: "Developed and maintained multiple web applications using modern JavaScript frameworks. Built RESTful APIs and implemented real-time features using WebSockets. Collaborated with cross-functional teams to deliver high-quality software solutions. Implemented automated testing and CI/CD pipelines.",
-                technologies: ["JavaScript", "React", "Express.js", "PostgreSQL", "Socket.io", "Jest", "Git"],
-                icon: "bx bx-laptop",
-                achievements: [
-                    "Built 5+ production applications serving 50K+ users",
-                    "Implemented automated testing achieving 85% code coverage",
-                    "Reduced bug reports by 40% through improved code quality",
-                    "Optimized database queries improving response time by 30%"
-                ]
-            },
-            {
-                title: "Frontend Developer",
-                company: "Digital Solutions Inc.",
-                period: "January 2022 - July 2022",
-                description: "Built responsive user interfaces and implemented modern UI/UX designs. Worked with REST APIs and state management libraries. Optimized application performance and improved user experience. Collaborated with backend developers and designers.",
-                technologies: ["React", "JavaScript", "CSS3", "HTML5", "Redux", "Material-UI", "Webpack"],
-                icon: "bx bx-palette",
-                achievements: [
-                    "Developed 3 responsive web applications with 95%+ mobile compatibility",
-                    "Improved page load speed by 35% through code splitting and lazy loading",
-                    "Implemented accessibility features achieving WCAG 2.1 AA compliance",
-                    "Reduced bundle size by 25% through optimization techniques"
-                ]
-            },
-            {
-                title: "Software Engineering Intern",
-                company: "StartupXYZ Technologies",
-                period: "May 2021 - December 2021",
-                description: "Assisted in developing web applications and learning industry best practices. Contributed to code reviews and participated in agile development processes. Gained hands-on experience with modern development tools and frameworks.",
-                technologies: ["Python", "Django", "JavaScript", "HTML/CSS", "Git", "PostgreSQL"],
-                icon: "bx bx-graduation",
-                achievements: [
-                    "Contributed to 2 major features in the main application",
-                    "Fixed 15+ critical bugs improving application stability",
-                    "Participated in 20+ code reviews learning best practices",
-                    "Completed 3 online courses in web development technologies"
-                ]
-            }
-        ]
-    },
+    // experience: {
+    //     subtitle: "Professional Journey",
+    //     description: "My progressive career in software development and engineering leadership",
+    //     experiences: [
+    //         {
+    //             title: "Senior Full Stack Software Engineer",
+    //             company: "TechCorp Solutions Pvt. Ltd.",
+    //             period: "March 2023 - Present",
+    //             description: "Leading full-stack development initiatives for enterprise applications serving 100K+ users. Architected and implemented microservices using Node.js, React, and TypeScript, resulting in 45% improved performance and 60% reduced deployment time. Mentored 4 junior developers and established coding standards and best practices. Collaborated with product managers and designers to deliver user-centric solutions.",
+    //             technologies: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "AWS", "Docker", "Redis"],
+    //             icon: "bx bx-code-alt",
+    //             achievements: [
+    //                 "Reduced application load time by 45% through optimization",
+    //                 "Implemented CI/CD pipeline reducing deployment time by 60%",
+    //                 "Led team of 4 developers to deliver 3 major features ahead of schedule",
+    //                 "Mentored 2 junior developers who successfully transitioned to mid-level roles"
+    //             ]
+    //         },
+    //         {
+    //             title: "Full Stack Developer",
+    //             company: "InnovateTech Solutions",
+    //             period: "August 2022 - February 2023",
+    //             description: "Developed and maintained multiple web applications using modern JavaScript frameworks. Built RESTful APIs and implemented real-time features using WebSockets. Collaborated with cross-functional teams to deliver high-quality software solutions. Implemented automated testing and CI/CD pipelines.",
+    //             technologies: ["JavaScript", "React", "Express.js", "PostgreSQL", "Socket.io", "Jest", "Git"],
+    //             icon: "bx bx-laptop",
+    //             achievements: [
+    //                 "Built 5+ production applications serving 50K+ users",
+    //                 "Implemented automated testing achieving 85% code coverage",
+    //                 "Reduced bug reports by 40% through improved code quality",
+    //                 "Optimized database queries improving response time by 30%"
+    //             ]
+    //         },
+    //         {
+    //             title: "Frontend Developer",
+    //             company: "Digital Solutions Inc.",
+    //             period: "January 2022 - July 2022",
+    //             description: "Built responsive user interfaces and implemented modern UI/UX designs. Worked with REST APIs and state management libraries. Optimized application performance and improved user experience. Collaborated with backend developers and designers.",
+    //             technologies: ["React", "JavaScript", "CSS3", "HTML5", "Redux", "Material-UI", "Webpack"],
+    //             icon: "bx bx-palette",
+    //             achievements: [
+    //                 "Developed 3 responsive web applications with 95%+ mobile compatibility",
+    //                 "Improved page load speed by 35% through code splitting and lazy loading",
+    //                 "Implemented accessibility features achieving WCAG 2.1 AA compliance",
+    //                 "Reduced bundle size by 25% through optimization techniques"
+    //             ]
+    //         },
+    //         {
+    //             title: "Software Engineering Intern",
+    //             company: "StartupXYZ Technologies",
+    //             period: "May 2021 - December 2021",
+    //             description: "Assisted in developing web applications and learning industry best practices. Contributed to code reviews and participated in agile development processes. Gained hands-on experience with modern development tools and frameworks.",
+    //             technologies: ["Python", "Django", "JavaScript", "HTML/CSS", "Git", "PostgreSQL"],
+    //             icon: "bx bx-graduation",
+    //             achievements: [
+    //                 "Contributed to 2 major features in the main application",
+    //                 "Fixed 15+ critical bugs improving application stability",
+    //                 "Participated in 20+ code reviews learning best practices",
+    //                 "Completed 3 online courses in web development technologies"
+    //             ]
+    //         }
+    //     ]
+    // },
 
     // Education Section
     education: {
